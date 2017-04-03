@@ -1,1 +1,8 @@
-python_web/mysite/.idea/workspace.xml
+.idea/
+*.pyc
+__pycache__
+staticfiles
+local_settings.py
+db.sqlite3
+migrations
+whoosh_index/

@@ -19,7 +19,7 @@ from learn import views as learn_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$',learn_views.index,name='home'),
+    url(r'^$',learn_views.home,name='home'),
     url(r'^add/$',learn_views.add,name='add'),
     url(r'^new_add/(\d+)/(\d+)/$',learn_views.add2,name='add2'),
 ]
